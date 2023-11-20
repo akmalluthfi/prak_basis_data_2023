@@ -127,7 +127,7 @@ from
   pegawai
   join kota on pegawai.kota_id = kota.id
 where
-  kota.nama = 'Jakarta';
+  kota.nama = 'Bandung';
 
 -- Tampilkan nama kota dan jumlah pegawai di tiap kota asal mereka.*
 select

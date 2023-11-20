@@ -37,7 +37,8 @@ where
 
 -- 4. Tampilkan data no.1 diatas untuk pegawai yang bekerja pada departemen ‘Marketing’.
 select
-  employees.employee_id employees.first_name,
+  employees.employee_id,
+  employees.first_name,
   employees.last_name,
   employees.salary,
   departments.department_name
